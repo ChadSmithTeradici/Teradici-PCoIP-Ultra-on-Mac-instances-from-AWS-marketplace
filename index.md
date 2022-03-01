@@ -2,7 +2,7 @@
 title: Install Teradici PCoIP Marketplace Image on AWS EC2 Mac instance
 description: Learn how to deploy PCoIP Ultra on AWS EC2 Mac instance with a AWS marketplace offering.
 author: chad-m-smith
-tags: Teradici, AWS, Mac, EC2
+tags: Teradici, AWS, MAC, EC2 Dedicated Hosts
 date_published: 2022-03-01
 ---
 
