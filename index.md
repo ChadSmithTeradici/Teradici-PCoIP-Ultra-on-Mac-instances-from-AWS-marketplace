@@ -26,9 +26,9 @@ More Information on EC2 MAC Instance can be found [here](https://docs.aws.amazon
 
 ## Costs
 
-This guide uses billable components of AWS Cloud and assumes Teradici subscription, including the following:
+This guide uses billable components of AWS Cloud infrastruture and Teradici software on a hourly consumption rate, including the following:
 
-+   [Teradici PCoIP](https://connect.teradici.com/contact-us), Teradici PCoIP subscriptions
++   [Teradici CAS marketplace offering](https://connect.teradici.com/contact-us), Teradici PCoIP subscriptions
 +   [AWS EC2 Mac Instance](https://aws.amazon.com/ec2/instance-types/mac/), including vCPUs, memory, disk, and GPUs as a dedicated host.
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications
 
