@@ -67,6 +67,8 @@ In this section, you procure a mac1 type dedicated host in your region
 
     Keep the remaining default selections and choose **Allocate**.
     
+     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_1.png)
+    
 1. Once allocated, the Dedicated Host appears with a status of **Available**. 
 
 ### Subscribe to Teradici CAS for macOS
