@@ -75,6 +75,8 @@ In this section, you procure a mac1 type dedicated host in your region
 
 1.  Launch a mac1.metal instance, on the [EC2 Dashboard](https://console.aws.amazon.com/ec2), choose **Launch Instance**.
 
+![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_2.png)
+
 1. On the **Choose AMI** page, select the **macOS Catalina (10.15.7)** or **macOS Big Sur (11.4)** AMI(s)
 
 1. On the **Choose Instance Type** page, keep the default selection of **mac1.metal instance** and choose **Next: Configure Instance Details**.
