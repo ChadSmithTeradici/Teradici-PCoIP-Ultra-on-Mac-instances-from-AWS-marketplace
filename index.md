@@ -81,47 +81,17 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
 **Note** It is helpful to remember what region you had allocated your host in the previous step because the marketplace listing has to be allocated in the same region as well.
 
-1.  In your web browser, navigate to the [AWS Marketplace: Teradici CAS for macOS](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) offering to subscribe. Select **Continue to Subcribe** to continue
+1. In your web browser, navigate to the [AWS Marketplace: Teradici CAS for macOS](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) offering to subscribe. Select **Continue to Subcribe** to continue.
 
-![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_0.png)
+    ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_0.png)
 
-1. 
+1. Before continuing, you must continue to the terms and conditions of the offering.
 
-1. On the **Add Storage** page, choose the Size (GiB) cell and increase the volume based on your requirements. Then, choose **Next: Add Tags**.
+    ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_2.png)
 
-1. On the **Add Tags page**, optionally add any Key:Value tags to your instance. Then, choose **Next: Configure Security Group**.
+1. jifs
 
-1. On the Configure Security Group page, make the following selections:
-
-    + For **Assign a security group**, choose **Create a new security group**.
-    + For **Security group name**, type a descriptive name, such as *pcoip ssh into mac1.metal*.
-    + For **Description**, optionally add a description.
-    + For **Type**, choose **SSH**
-    + For **Source**, choose **My IP**
-    + Select **Add rule**
-    + For **Type**, choose **Custom TCP Rule**
-    + For **Port Range** choose **HTTPS**
-    + For **Source**, choose **0.0.0.0/0**
-    + Select **Add rule**
-    + For **Type**, choose **Custom TCP Rule**
-    + For **Port Range** choose **4172**
-    + For **Source**, choose **0.0.0.0/0**
-    + Select **Add rule**
-    + For **Type**, choose **Custom UDP Rule**
-    + For **Port Range** choose **4172**
-    + For **Source**, choose **0.0.0.0/0**
-    + Select **Add rule**
-    + For **Type**, choose **Custom TCP Rule**
-    + For **Port Range** choose **5900**
-    + For **Source**, choose **My IP**
-    +  Select **Add rule**
-    + For **Type**, choose **Custom TCP Rule**
-    + For **Port Range** choose **5800**
-    + For **Source**, choose **My IP**
-
-    Then, choose **Review** and **Launch**.
-
-1. On the **Review page**, review your selections and verify that the **Host ID** matches the Dedicated Host you created earlier. Then, choose **Launch**.
+    ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_3.png)
 
 1. On the **Select an existing key pair or create a new key pair** dialog, verify your existing key pair (if you do not have a key pair, select the option to create a new key pair). Then, select the acknowlegement check box and choose **Launch Instances**.
 
