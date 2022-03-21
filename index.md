@@ -81,15 +81,11 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
 **Note** It is helpful to remember what region you had allocated your host in the previous step because the marketplace listing has to be allocated in the same region as well.
 
-1.  In your web browser, navigate to the [AWS Marketplace: Teradici CAS for macOS](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) offering to subscribe.
+1.  In your web browser, navigate to the [AWS Marketplace: Teradici CAS for macOS](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) offering to subscribe. Select **Continue to Subcribe** to continue
 
-![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_2.png)
+![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_0.png)
 
-1. On the **Choose AMI** page, select the **macOS Catalina (10.15.7)** or **macOS Big Sur (11.4)** AMI(s)
-
-1. On the **Choose Instance Type** page, keep the default selection of **mac1.metal instance** and choose **Next: Configure Instance Details**.
-
-1. On the **Configure Instance Details** page, for **Host**, choose the **Dedicated Host** you allocated earlier. For the remaining configuration details, make any selections you prefer. Then, choose **Next: Add Storage**.
+1. 
 
 1. On the **Add Storage** page, choose the Size (GiB) cell and increase the volume based on your requirements. Then, choose **Next: Add Tags**.
 
