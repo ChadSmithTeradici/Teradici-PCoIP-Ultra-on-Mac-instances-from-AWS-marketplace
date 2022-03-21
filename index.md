@@ -73,6 +73,8 @@ In this section, you procure a mac1 type dedicated host in your region
     
 1. Once allocated, the Dedicated Host appears with a status of **Available**. 
 
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/Dedicated_2.png)
+
 ### Subscribe to Teradici CAS for macOS
 
 1.  Launch a mac1.metal instance, on the [EC2 Dashboard](https://console.aws.amazon.com/ec2), choose **Launch Instance**.
