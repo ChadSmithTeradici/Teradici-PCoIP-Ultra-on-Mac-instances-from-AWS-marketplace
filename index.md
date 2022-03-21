@@ -92,6 +92,10 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 1. jifs
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_3.png)
+    
+1. fksdfl
+
+    ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_4.png)
 
 1. On the **Select an existing key pair or create a new key pair** dialog, verify your existing key pair (if you do not have a key pair, select the option to create a new key pair). Then, select the acknowlegement check box and choose **Launch Instances**.
 
