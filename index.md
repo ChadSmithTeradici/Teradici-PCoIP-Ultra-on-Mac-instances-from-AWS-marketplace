@@ -12,7 +12,7 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 This guide shows you how to install Teradici PCoIP agent on a Mac instance running in AWS. This guide is intended for customers that want to procure Teradici from AWS marketplace on an hourly consumption rate and apply the image to a pre-allocated intel-based MAC-mini. For customer that have Teradici annual subscriptions refer to the [Teradici-PCoIP-Ultra-on-Mac-EC2-instance-in-AWS](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-EC2-instance-in-AWS) instead. 
 
-EC2 Mac instances are available for purchase as Dedicated Hosts through On Demand and Savings Plans pricing models. Billing for EC2 Mac instances is per second with a 24-hour minimum allocation period to comply with the Apple macOS Software License Agreement. Through On Demand, you can launch an EC2 Mac host and be up and running within minutes. At the end of the 24-hour minimum allocation period, the host can be released at any time without further commitment.
+EC2 Mac instances are available for purchase as Dedicated Hosts through On Demand and Savings Plans pricing models. Billing for EC2 Mac instances is per second with a 24-hour minimum allocation period to comply with the Apple macOS Software License Agreement. With 'On Demand' procurement, you can launch an EC2 Mac host and be up and running within minutes. At the end of the 24-hour minimum allocation period, the host can be released at any time without further commitment.
 
 More Information on EC2 MAC Instance can be found [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-mac-instances.html).
 
@@ -28,7 +28,7 @@ More Information on EC2 MAC Instance can be found [here](https://docs.aws.amazon
 
 This guide uses billable components of AWS Cloud infrastruture and Teradici software on a hourly consumption rate, including the following:
 
-+   [Teradici CAS marketplace offering](https://connect.teradici.com/contact-us), Teradici PCoIP subscriptions
++   [Teradici CAS marketplace offering](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa), Teradici PCoIP subscriptions through marketplace.
 +   [AWS EC2 Mac Instance](https://aws.amazon.com/ec2/instance-types/mac/), including vCPUs, memory, disk, and GPUs as a dedicated host.
 +   [Internet egress and transfer costs](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), for PCoIP and other applications communications
 
@@ -56,7 +56,7 @@ In this section, you procure a mac1 type dedicated host in your region
 
 1. Select a AWS region that has [EC2 Mac Instances available](https://aws.amazon.com/ec2/instance-types/mac/) with a understanding of hourly consumption rate.
 
-1.  Allocate a Mac Dedicated Host within the [EC2 Dashboard](https://console.aws.amazon.com/ec2). Choose **Dedicated Hosts**, then choose **Allocate Dedicated Host**.
+1. Allocate a Mac Dedicated Host within the [EC2 Dashboard](https://console.aws.amazon.com/ec2). Choose **Dedicated Hosts**, then choose **Allocate Dedicated Host**.
     
 1.  On the **Allocate Dedicated Host** page, make the following selections:
     + For **Name tag**, type EC2 Mac Dedicated Host
