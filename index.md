@@ -58,7 +58,7 @@ In this section, you procure a mac1 type dedicated host in your region
 
 1. Allocate a Mac Dedicated Host within the [EC2 Dashboard](https://console.aws.amazon.com/ec2). Choose **Dedicated Hosts**, then choose **Allocate Dedicated Host**.
 
-    ![image]https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/Dedicated_1.png
+    ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/Dedicated_1.png)
     
 1.  On the **Allocate Dedicated Host** page, make the following selections:
     + For **Name tag**, type EC2 Mac Dedicated Host
