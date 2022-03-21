@@ -77,7 +77,11 @@ In this section, you procure a mac1 type dedicated host in your region
 
 ### Subscribe to Teradici CAS for macOS
 
-1.  Launch a mac1.metal instance, on the [EC2 Dashboard](https://console.aws.amazon.com/ec2), choose **Launch Instance**.
+Now that a mac1.metal dedicated Instance has been allocated in your AWS account, you can now associate an AWS marketplace image to that instance. 
+
+**Note** It is helpful to remember what region you had allocated your host in the previous step because the marketplace listing has to be allocated in the same region as well.
+
+1.  In your web browser, navigate to the [AWS Marketplace: Teradici CAS for macOS](https://aws.amazon.com/marketplace/pp/prodview-isaghmqny2wr6?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) offering to subscribe.
 
 ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_2.png)
 
