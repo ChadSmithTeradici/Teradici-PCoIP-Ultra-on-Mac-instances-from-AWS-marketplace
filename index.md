@@ -100,92 +100,46 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
  1. kfsm
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_5.png)
+    
+ 1. lfksl;ak
+
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_6.png)
+
+ 1. lfsl;a
+
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_7.png)
+
+ 1. l;fds;lafd;
+
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_8.png)
+
+ 1. fms;ma
+
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
+
+ 1. ;'dfs'al
+
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_10.png)
+
+ 1. ;lfa';l
 
 1. On the **Select an existing key pair or create a new key pair** dialog, verify your existing key pair (if you do not have a key pair, select the option to create a new key pair). Then, select the acknowlegement check box and choose **Launch Instances**.
 
 1. On the **Instances** page, wait for the **Status Check** column of your instance to show 2/2 checks passed before continuing.
 
-## Set up the connection to your EC2 Mac instance
-
+## Create user by ssh connection to macOS Instance
 In this section, you will establish a connection to your instance using SSH, to install VNC temporary GUI access to the Mac. (some Teradici prerequisites configurations that can only be accomplished within the Mac GUI) Finally, PCoIP will be installed and configured via VNC session into the Mac GUI.
 
 1. On the **EC2 Dashboard**, select your **EC2 Mac Instance** and choose **Connect**.
 
 1. On the **Connect to an instance** dialog, choose **SSH client**. Follow the instructions in the dialog for SSH client to connect to your mac1.metal instance
 
-### Configure VNC and start listener
 
-1. Run the following command in SSH session to install and start VNC (macOS screen sharing SSH) from the Mac instance:
-        
-        sudo defaults write /var/db/launchd.db/com.apple.launchd/overrides.plist com.apple.screensharing -dict Disabled -bool false
-        sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist
     
-1. Run the following command to set a password for ec2-user:
 
-        sudo /usr/bin/dscl . -passwd /Users/ec2-user
-        
-1. Create an SSH tunnel to the VNC port. In the following command, replace keypair_file with your SSH key path and x.x.x.x with your instance's IP address:
-
-        ssh -i keypair_file -L 5900:localhost:5900 ec2-user@x.x.x.x
-        
-    Note: The SSH session should be running while you're in the remote session.
+   
     
-1. Using a VNC client, connect to instaceIP:5900
 
-    Note: macOS has a built-in VNC client. For Windows, you can use RealVNC viewer for Windows. For Linux, you can use Remmina. Other clients, such as TightVNC         running on Windows don't work with this resolution.
-    
-### Install Teradici PCoIP Agent
-Once a VNC connection has been established, you can install and configure Teradici PCoIP within the macOS GUI.
-
-**Note**: Teradici PCoIP Agent for macOS Installation guide may change between releases, consult the [latest guides](https://docs.teradici.com/find/product/cloud-access-software) before continuing.
-
-+ **Firewall** - Becuase the AWS EC2 Mac Instance has a security group assoicated and configured, it is recommended to disable it (firewall is off)
-+ **Energy Saver** - Energy Saver features can cause the remote system to go to sleep or become unresponsive. To prevent this, open **System Preferences > Energy Saver**, and configure the settings as follows:
-
-     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/raw/main/images/Energy_saving.jpg)
-     
-+ **Create a user account for PCoIP Connections** - The user name cannot contain spaces, and cannot be the root user account (the root user is an administrative account with elevated permissions, and is disabled by default in macOS).
-
-#### Downloaing, installing, registering PCoIP
-1.  [Download the agent installer](https://docs.teradici.com/find/product/cloud-access-software/current/graphics-agent-for-macos/21.07) to the machine you'll be using as the PCoIP host. You will need a Teradici registed login to gain access.
-
-1. Run the `pcoip-agent-graphics_21.07.4.pkg`.
-
-1. Click through the installer steps and accept the End User License Agreement. The agent application will be installed.
-
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/raw/main/images/PCoIP_Intro_1.jpg)
-    
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP_ELUA_2.jpg)
-    
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP_EULA_Agree_3.jpg)
-    
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP_Dest_4.jpg)
-    
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP_Perm_5.jpg)
-    
-    ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP_Trash_6.jpg)
-    
-1. Open the PCoIP Agent application, found in:
-
-        /System/Volumes/Data/Applications/PCoIP Agent.app
-
-1. You will be prompted to allow **Accessibility** permission. Grant and confirm privacy permissions for Accessibility.
-
-1. Open the PCoIP Agent application again.
-
-1. You will be prompted to allow **Screen Recording** permission. Grant and confirm privacy permissions for Screen Recording.
-
-1. Next, provide the license registration code you received from Teradici.
-
-    open a terminal window and type the following command:
-    
-        sudo pcoip-register-host --registration-code={REGISTRATION_CODE}
-        
-    The Graphics Agent for macOS must be assigned a valid PCoIP session license before it will work. Until you've registered it, you can't connect to the desktop using a PCoIP client. You receive a registration code when you purchase a pool of licenses from Teradici. Each registration code can be used multiple times; each use consumes one license in its pool.
-    
-      Registration codes look like this: ABCDEFGH12@AB12-C345-D67E-89FG
-        
-1. **Restart** the EC2 Instance
 
 
 ## Install PCoIP Client and connect to EC2 Mac Instance
