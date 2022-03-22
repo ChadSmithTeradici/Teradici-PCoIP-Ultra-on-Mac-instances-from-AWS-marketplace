@@ -101,7 +101,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_5.png)
     
- 1. lfksl;ak
+ 1. The EC2 console will pre-select compatiable EC2 instance types for the available AMI. It has choosen the **mac1.metal** as the defualt instance type. Click **Next** to proceed.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_6.png)
 
