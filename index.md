@@ -109,7 +109,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_7.png)
 
- 1. l;fds;lafd;
+ 1. The default storage capacity is too small for a practical deployment, adjust the amount in configurator.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_8.png)
     
