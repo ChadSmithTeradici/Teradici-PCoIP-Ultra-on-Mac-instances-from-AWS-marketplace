@@ -89,7 +89,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_2.png)
 
-1. jifs
+1. Once the EULA is agreed upon, the AMI will be granted to your AWS account. This may take a couple of minutes for this process to finish. When complete the **Continue to Launch** button will appear. 
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_3.png)
     
