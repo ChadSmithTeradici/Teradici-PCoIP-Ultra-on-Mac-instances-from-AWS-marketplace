@@ -97,7 +97,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_4.png)
     
- 1. kfsm
+ 1. In most senerios you will want to continue the deployment from the EC2 console, You also have the option to deploy into your organizations service catalog instead.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_5.png)
     
