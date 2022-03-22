@@ -118,11 +118,11 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
  1. fms;ma
 
-    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_10.png)
 
  1. ;'dfs'al
 
-    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_10.png)
+    ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
 
  1. ;lfa';l
 
