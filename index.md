@@ -105,7 +105,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_6.png)
 
- 1. lfsl;a
+ 1. In the Instance Details step, pay special attention to the Network and Subnet portions of the configurator. You must have a network and subnet that is in the same AZ as your provisioned dedicated mac1metal instance. Otherwise, it won’t be accessible.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_7.png)
 
