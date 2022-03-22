@@ -113,7 +113,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_8.png)
     
- 1. this is a test
+ 1. As a part of the marketplace deployment, you have the option of choosing the auto-generated security group that opens all necessary communications for PCoIP protocol and SSH.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_11.png)       
 
