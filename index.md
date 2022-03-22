@@ -93,7 +93,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_3.png)
     
-1. The next-step is where you define what region where the AMI is deployed too. It must align to the same region where you deployed your dedicated host **mac.metal** system as well as any pre-configured VPC and associated network infrastrucuture.
+1. The next-step is where you define what region where the AMI wil be deployed too. It must align to the same region where you deployed your dedicated host **mac.metal** system as well as any pre-configured VPC and its associated network infrastrucuture.
 
     ![image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_4.png)
     
