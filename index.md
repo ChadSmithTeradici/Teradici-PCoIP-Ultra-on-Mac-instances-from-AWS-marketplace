@@ -116,8 +116,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
  1. As a part of the marketplace deployment, you have the option of choosing the auto-generated security group that opens all necessary communications for PCoIP protocol and SSH (or) you can assign an existing Security Group to the deployment.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_11.png)       
-
- 1. (Optional) you have the option to asign custom metadata to the instance.
+ 1. (Optional) you have the option to assign- a custom metadata field to the instance.
 
  1. The last step is to associated a key pair key to the instance. You will need access to this PEM key from you local machine because you will need to SSH into the mac instance to finsih the configuration in the next step.
 
@@ -127,11 +126,11 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
 
- 1. ;lfa';l
-
 1. On the **Select an existing key pair or create a new key pair** dialog, verify your existing key pair (if you do not have a key pair, select the option to create a new key pair). Then, select the acknowlegement check box and choose **Launch Instances**.
 
 1. On the **Instances** page, wait for the **Status Check** column of your instance to show 2/2 checks passed before continuing.
+
+### SSH into Teradici CAS for macOS and assign a password
 
 ## Create user by ssh connection to macOS Instance
 In this section, you will establish a connection to your instance using SSH, to install VNC temporary GUI access to the Mac. (some Teradici prerequisites configurations that can only be accomplished within the Mac GUI) Finally, PCoIP will be installed and configured via VNC session into the Mac GUI.
