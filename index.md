@@ -130,7 +130,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
 1. On the **Instances** page, wait for the **Status Check** column of your instance to show 2/2 checks passed before continuing.
 
-## Create user by ssh connection to macOS Instance
+## Create user through a ssh connection to macOS Instance
 In this section, you will establish a connection to your instance using SSH to create a user and password.
 
 1. On the **EC2 Dashboard**, select your **EC2 Mac Instance** and choose **Connect**.
@@ -140,8 +140,7 @@ In this section, you will establish a connection to your instance using SSH to c
 1. Set the password for "ec2-user" in the ssh session.
 
         $ sudo passwd ec2-user
-
-
+        
 ## Install PCoIP Client and connect to EC2 Mac Instance
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
 
