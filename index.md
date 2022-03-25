@@ -135,7 +135,11 @@ In this section, you will establish a connection to your instance using SSH to c
 
 1. On the **EC2 Dashboard**, select your **EC2 Mac Instance** and choose **Connect**.
 
-1. On the **Connect to an instance** dialog, choose **SSH client**. Follow the instructions in the dialog for SSH client to connect to your mac1.metal instanc
+1. On the **Connect to an instance** dialog, choose **SSH client**. Follow the instructions in the dialog for SSH client to connect to your mac1.metal instance.
+
+1. Set the password for "ec2-user" in the ssh session.
+
+'''$ sudo passwd ec2-user '''
 
 
 ## Install PCoIP Client and connect to EC2 Mac Instance
