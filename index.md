@@ -122,7 +122,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_10.png)
 
- 1. As a launch promotion, Teradici is offering a free 30-day trial of CAS on MAC launched from AWS marketplace. This promotion does not include a discount on the underlying mac1.metal instance.
+ 1. As a launch promotion, Teradici is offering a **free 30-day trial of CAS on MAC** launched from AWS marketplace. This promotion does not include a discount on the underlying mac1.metal instance.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
 
