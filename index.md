@@ -105,7 +105,7 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_6.png)
 
- 1. In the Instance Details step, pay special attention to the Network and Subnet portions of the configurator. You must have a network and subnet that is in the same AZ as your provisioned dedicated mac1metal instance. Otherwise, it won’t be accessible.
+ 1. In the Instance Details step, pay special attention to the Network and Subnet portions of the configurator. **You must have a network and subnet that is in the same AZ as your provisioned dedicated mac1metal instance.** Otherwise, it won’t be accessible.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_7.png)
 
@@ -113,15 +113,17 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_8.png)
     
- 1. As a part of the marketplace deployment, you have the option of choosing the auto-generated security group that opens all necessary communications for PCoIP protocol and SSH.
+ 1. As a part of the marketplace deployment, you have the option of choosing the auto-generated security group that opens all necessary communications for PCoIP protocol and SSH (or) you can assign an existing Security Group to the deployment.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_11.png)       
 
- 1. fms;ma
+ 1. (Optional) you have the option to asign custom metadata to the instance.
+
+ 1. The last step is to associated a key pair key to the instance. You will need access to this PEM key from you local machine because you will need to SSH into the mac instance to finsih the configuration in the next step.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_10.png)
 
- 1. ;'dfs'al
+ 1. As a launch promotion, Teradici is offering a free 30-day trial of CAS on MAC launched from AWS marketplace. This promotion does not include a discount on the underlying mac1.metal instance.
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
 
