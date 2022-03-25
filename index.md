@@ -139,7 +139,7 @@ In this section, you will establish a connection to your instance using SSH to c
 
 1. Set the password for "ec2-user" in the ssh session.
 
-    $ sudo passwd ec2-user
+        $ sudo passwd ec2-user
 
 
 ## Install PCoIP Client and connect to EC2 Mac Instance
