@@ -126,8 +126,6 @@ Now that a mac1.metal dedicated Instance has been allocated in your AWS account,
 
     ![Image](https://github.com/ChadSmithTeradici/Teradici-PCoIP-Ultra-on-Mac-instances-from-AWS-marketplace/blob/main/images/MACML_9.png)
 
-1. On the **Select an existing key pair or create a new key pair** dialog, verify your existing key pair (if you do not have a key pair, select the option to create a new key pair). Then, select the acknowlegement check box and choose **Launch Instances**.
-
 1. On the **Instances** page, wait for the **Status Check** column of your instance to show 2/2 checks passed before continuing.
 
 ## Create user through a ssh connection to macOS Instance
