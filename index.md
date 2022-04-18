@@ -173,7 +173,7 @@ In this section, you will establish a connection to your instance using PCoIP. Y
 To avoid incurring charges to your AWS account for the resources used in this tutorial, you can simply delete the instance:
 
 1.  In the [EC2 Dashboard](https://console.aws.amazon.com/ec2) , go to the Mac **Instance State** scroll to **Terminate**
-1.  You can repurpose PCoIP floating seat, allow up to 24hrs for Teradici Cloud Licensing server to flush assoication to EC2 Mac instance.
+1.  After you have initially procured your AWS marketplace offering, you can redeploy from your image  repository without going to AWS marketplace offering.
 1.  Note: if you delete instance before 24hr peroid. AWS will still charge you the remaining hours until 24hr peroid expires
 
 ## What's next
